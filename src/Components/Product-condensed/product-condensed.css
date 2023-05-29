@@ -1,0 +1,8 @@
+.pc-condensed{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    margin-right: 25px;
+}
