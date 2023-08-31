@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Swag-Shop Full Stack Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Swag-Shop Full Stack Project! This project is a simple online shopping experience where users can view products, add them to their wishlist, and explore different features.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#swag-shop-full-stack-project)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View a list of products with details.
+- Add products to the wishlist.
+- Fetch product data from a server using HTTP requests.
+- Responsive layout for different screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+- Frontend:
+  - React: UI components and user interface.
+  - CSS: Styling the application.
+  - HttpService: Handling HTTP requests.
+- Backend:
+  - Node.js: Server-side logic.
+  - Express: Web application framework.
+  - MongoDB: Database for storing product data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone this repository: `git clone https://github.com/yourusername/swag-shop.git`
+2. Navigate to the project directory: `cd swag-shop`
+3. Install frontend dependencies: `cd client && npm install`
+4. Install backend dependencies: `cd ../server && npm install`
+5. Start the frontend: `cd ../client && npm start`
+6. Start the backend: `cd ../server && npm start`
+7. Access the application in your web browser at `http://localhost:3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Open the application in your web browser.
+2. Browse the list of products and their details.
+3. Click on "Add to Wishlist" to add products to your wishlist.
+4. Interact with the user interface and enjoy the shopping experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository.
+2. Create a new branch for your feature/fix: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m "Add your message here"`
+4. Push to the branch: `git push origin feature-name`
+5. Create a pull request explaining your changes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
